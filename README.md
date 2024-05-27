@@ -11,35 +11,34 @@
 
 <pre lang="rust"><code>
 ⠄⠄⠄⠄⠄⠄⠄⠄⠄⣾⣿⣿⣿⣿⡄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣀⣀⠄⠄⠄⠄⠄⠄⠄Profile {
-⠄⠄⠄⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⣾⠛⠛⣷⢀⣾⠟⠻⣦⠄  name: "Vitalii Shutov",
-⠄⠄⠄⠄⠄⠄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⢰⡿⠋⠄⠄⣠⡾⠋⠄  preferred_os: "Linux",
-⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⣬⡄⠄⠄⠄⣭⡅⠄⠄  job: Job {
-⠄⠄⠄⠄⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠄    current: {
-⠄⠄⠄⠄⢛⣛⣛⣛⣛⣛⣛⣛⣛⡛⢋⣉⣭⣭⣥⣬⣤⣤⣀⠄⠄⠄⠄⠄⠄⠄      place: VKontakte,
-⠄⠄⣴⣵⣿⣟⡉⣥⣶⣶⠶⠶⠬⣉⡂⠹⣟⡫⠽⠟⢒⣒⠒⠆⠄⠄⠄⠄⠄⠄      position: TechLead,
-⠄⣼⣿⣿⣿⣿⣿⣶⣭⣃⡈⠄⠄⠘⠃⡰⢶⣶⣿⠏⠄⠄⠙⡛⠄⠄⠄⠄⠄⠄      team: VoiceTech
-⢰⣿⣿⣿⣿⣿⣿⣿⣯⣉⣉⣩⣭⣶⣿⡿⠶⠶⠶⠶⠶⠾⣋⠄⠄⠄⠄⠄⠄⠄    }
-⢾⣿⣿⣿⣿⣿⣿⣿⢩⣶⣒⠒⠶⢖⣒⣚⡛⠭⠭⠭⠍⠉⠁⠄⠄⠄⣀⣀⡀⠄  },
-⠘⢿⣿⣿⣿⣿⣿⣿⣧⣬⣭⣭⣭⣤⡤⠤⠶⠟⣋⣀⣀⡀⢀⣤⣾⠟⠋⠈⢳⠄  languages: Languages {
-⣴⣦⡒⠬⠭⣭⣭⣭⣙⣛⠋⠭⡍⠁⠈⠙⠛⠛⠛⠛⢻⠛⠉⢻⠁⠄⠄⠄⢸⡀    programming: ProgrammingLanguages {
-⣿⣿⣿⣿⣷⣦⣤⠤⢬⢍⣼⣦⡾⠛⠄⠄⠄⠄⠄⠄⠈⡇⠄⢸⠄⠄⠄⢦⣄⣇      main: {"C++", "Python", "Rust"},
-⣿⣿⡿⣋⣭⣭⣶⣿⣶⣿⣿⣿⠟⠛⠃⠄⠄⠄⠄⠄⢠⠃⠄⡜⠄⠄⠄⠔⣿⣿      sometimes: {"Go", "Java", "Kotlin", "C#", "JavaScript", "Objective-C", "Solidity"},
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿    },
-⠄⠄⠄⠄⠄⠄⢴⣿⣿⣿⣷⣤⣤⣄⡀⢠⣤⣄⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄    real: RealLanguages("English", "Russian"),
-⠄⠄⠄⠄⠄⠄⠄⠙⢿⣿⣟⣉⣠⣤⣤⣤⣉⡻⢿⣇⣠⣤⣤⠄⠄⠄⠄⠄⠄⠄  },
-⠄⠄⠄⠄⠄⠄⠄⠄⠄⠹⣿⣿⣿⣿⣿⠟⢋⣁⣄⡈⠻⣿⢃⣴⠷⠄⠄⠄⠄⠄  skills: Skills {
-⠄⠄⠄⠄⠄⠄⠄⢀⡴⠶⢾⣿⣿⣿⣿⣿⠟⣩⣭⣭⣄⡀⠛⢡⣾⡏⠉⠄⠄⠄    current_interest: {"LLVM", "MLIR", "XLA", "Compilers"},
-⠄⠄⠄⠄⠄⠄⢸⡏⠄⠄⠢⠘⣿⣿⣿⠘⣿⣿⡿⠁⠙⣿⡄⢸⣿⡇⢰⡷⠄⠄    system: SystemSkills {
-⠄⠄⠄⠄⠄⢀⣼⣧⠄⠄⠄⢰⣿⣿⠋⣷⢸⣿⠇⢰⠆⣿⡇⠈⢿⡿⠆⠄⣠⡄        networking: {"TCP/IP", "UDP", "HTTP 2.0/3", "RTMP"},
-⠄⠄⣀⣴⣾⣿⣿⣿⣆⠄⠄⣾⣿⣿⣇⢿⡌⠻⣤⣤⠶⠟⣁⠐⡖⠒⠂⢉⣩⣀        gpu: {"CUDA", "Triton", "TensorRT", "Vulkan", "OpenGL"},
-⠄⣼⣿⣿⡿⠛⣥⣤⣤⡄⠄⠘⠋⠛⠿⡌⠛⠳⠶⠆⣠⣴⣿⣷⡘⢋⣽⣿⡿⠟        cpu: {"Multithreading", "SIMD", "DOD"},
-⣼⣿⣿⣿⡇⢸⣇⡈⠟⢠⣄⣰⢏⡠⠄⠰⢶⣶⣶⣾⣿⣿⣿⣿⠿⠿⣟⣡⠴⠄    },
-⢿⣿⣿⣿⣧⠈⣿⣷⠄⢸⣿⣿⣯⣠⠞⣠⣈⠻⠿⠿⢿⣛⣉⠤⠶⠛⣫⡀⠄⠄    computer_science: "Proficient in most algorithms",
-⠈⣿⣿⣿⣿⣷⠙⢿⡄⣸⣿⣿⣿⣷⣾⠟⠁⠄⠄⠄⠄⠨⣻⡄⣀⣴⠏⠄⠄⠄    machine_learning: "Solid foundation, always updated",
+⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣀⣀⠄⠄⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄⠄⠄⣾⠛⠛⣷⢀⣾⠟⠻⣦⠄Profile {
+⠄⠄⠄⠄⠄⠄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⢰⡿⠋⠄⠄⣠⡾⠋⠄  name: "Vitalii Shutov",
+⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⣬⡄⠄⠄⠄⣭⡅⠄⠄  preferred_os: "Linux",
+⠄⠄⠄⠄⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠄  job: Job {
+⠄⠄⠄⠄⢛⣛⣛⣛⣛⣛⣛⣛⣛⡛⢋⣉⣭⣭⣥⣬⣤⣤⣀⠄⠄⠄⠄⠄⠄⠄    current: {
+⠄⠄⣴⣵⣿⣟⡉⣥⣶⣶⠶⠶⠬⣉⡂⠹⣟⡫⠽⠟⢒⣒⠒⠆⠄⠄⠄⠄⠄⠄      place: VKontakte,
+⠄⣼⣿⣿⣿⣿⣿⣶⣭⣃⡈⠄⠄⠘⠃⡰⢶⣶⣿⠏⠄⠄⠙⡛⠄⠄⠄⠄⠄⠄      position: TechLead,
+⢰⣿⣿⣿⣿⣿⣿⣿⣯⣉⣉⣩⣭⣶⣿⡿⠶⠶⠶⠶⠶⠾⣋⠄⠄⠄⠄⠄⠄⠄      team: VoiceTech
+⢾⣿⣿⣿⣿⣿⣿⣿⢩⣶⣒⠒⠶⢖⣒⣚⡛⠭⠭⠭⠍⠉⠁⠄⠄⠄⣀⣀⡀⠄    }
+⠘⢿⣿⣿⣿⣿⣿⣿⣧⣬⣭⣭⣭⣤⡤⠤⠶⠟⣋⣀⣀⡀⢀⣤⣾⠟⠋⠈⢳⠄  },
+⣴⣦⡒⠬⠭⣭⣭⣭⣙⣛⠋⠭⡍⠁⠈⠙⠛⠛⠛⠛⢻⠛⠉⢻⠁⠄⠄⠄⢸⡀  skills: Skills {
+⣿⣿⣿⣿⣷⣦⣤⠤⢬⢍⣼⣦⡾⠛⠄⠄⠄⠄⠄⠄⠈⡇⠄⢸⠄⠄⠄⢦⣄⣇    current_interest: {"JAX", "LLVM", "MLIR", "XLA", "Compilers"},
+⣿⣿⡿⣋⣭⣭⣶⣿⣶⣿⣿⣿⠟⠛⠃⠄⠄⠄⠄⠄⢠⠃⠄⡜⠄⠄⠄⠔⣿⣿    machine_learning: {"Deep Learning 😍", "JAX", "PyTorch"},
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿    system: SystemSkills {
+⠄⠄⠄⠄⠄⠄⢴⣿⣿⣿⣷⣤⣤⣄⡀⢠⣤⣄⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄        networking: {"TCP/IP", "UDP", "NCCL", "RPC", "HTTP 2/3"},
+⠄⠄⠄⠄⠄⠄⠄⠙⢿⣿⣟⣉⣠⣤⣤⣤⣉⡻⢿⣇⣠⣤⣤⠄⠄⠄⠄⠄⠄⠄        gpu: {"CUDA", "Triton", "TensorRT", "Vulkan", "OpenCL"},
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠹⣿⣿⣿⣿⣿⠟⢋⣁⣄⡈⠻⣿⢃⣴⠷⠄⠄⠄⠄⠄        cpu: {"Multithreading", "SIMD", "DOD"},
+⠄⠄⠄⠄⠄⠄⠄⢀⡴⠶⢾⣿⣿⣿⣿⣿⠟⣩⣭⣭⣄⡀⠛⢡⣾⡏⠉⠄⠄⠄    },
+⠄⠄⠄⠄⠄⠄⢸⡏⠄⠄⠢⠘⣿⣿⣿⠘⣿⣿⡿⠁⠙⣿⡄⢸⣿⡇⢰⡷⠄⠄  },
+⠄⠄⠄⠄⠄⢀⣼⣧⠄⠄⠄⢰⣿⣿⠋⣷⢸⣿⠇⢰⠆⣿⡇⠈⢿⡿⠆⠄⣠⡄  languages: Languages {
+⠄⠄⣀⣴⣾⣿⣿⣿⣆⠄⠄⣾⣿⣿⣇⢿⡌⠻⣤⣤⠶⠟⣁⠐⡖⠒⠂⢉⣩⣀    programming: ProgrammingLanguages {
+⠄⣼⣿⣿⡿⠛⣥⣤⣤⡄⠄⠘⠋⠛⠿⡌⠛⠳⠶⠆⣠⣴⣿⣷⡘⢋⣽⣿⡿⠟      main: {"C++", "Python", "Rust"},
+⣼⣿⣿⣿⡇⢸⣇⡈⠟⢠⣄⣰⢏⡠⠄⠰⢶⣶⣶⣾⣿⣿⣿⣿⠿⠿⣟⣡⠴⠄      sometimes: {"Go", "Java", "Kotlin", "C#", "JavaScript", "Objective-C", "Solidity"},
+⢿⣿⣿⣿⣧⠈⣿⣷⠄⢸⣿⣿⣯⣠⠞⣠⣈⠻⠿⠿⢿⣛⣉⠤⠶⠛⣫⡀⠄⠄    },
+⠈⣿⣿⣿⣿⣷⠙⢿⡄⣸⣿⣿⣿⣷⣾⠟⠁⠄⠄⠄⠄⠨⣻⡄⣀⣴⠏⠄⠄⠄    real: RealLanguages("English", "Russian"),
 ⠄⠄⠙⢿⣿⣿⣿⡖⣸⣿⣿⣿⣿⠋⣠⣾⡿⠇⣀⡀⠄⠄⠁⣿⠁⠄⠄⠄⠄⠄  },
 ⠄⠄⠄⠄⠈⠛⠿⢀⣿⣿⣿⣿⡇⣤⣤⣴⠶⠟⠛⠉⠙⠛⠛⠁⠄⠄⠄⠄⠄⠄}
 ⠄⠄⠄⠄⠄⠄⢠⣾⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄  
 ⠄⠄⠄⠄⠄⠄⠻⣿⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄ 
-
 </code></pre>
