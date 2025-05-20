@@ -2,7 +2,6 @@
 ### Contact
 - Email: [vitaly.shutov1@gmail.com](mailto:vitaly.shutov1@gmail.com)
 - LinkedIn: [vitalyshutov](https://www.linkedin.com/in/vitalyshutov)
-- GitHub: [Lallapallooza](https://github.com/Lallapallooza)
 - Google Scholar: [Vitalii Shutov](https://scholar.google.com/citations?user=P5Gs7HEAAAAJ)
 
 ### Fun things
