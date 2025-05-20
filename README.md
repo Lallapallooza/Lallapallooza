@@ -1,8 +1,4 @@
 # 👋 Hi there
-### Contact
-- Email: [vitaly.shutov1@gmail.com](mailto:vitaly.shutov1@gmail.com)
-- LinkedIn: [vitalyshutov](https://www.linkedin.com/in/vitalyshutov)
-- Google Scholar: [Vitalii Shutov](https://scholar.google.com/citations?user=P5Gs7HEAAAAJ)
 
 ### Fun things
 - [Programming Challenges](https://lallapallooza.github.io/challenge/)
